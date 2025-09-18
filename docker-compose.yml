@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  maven:
+    image: maven:3.9.4-eclipse-temurin-17
+    container_name: calculadora-ci
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: mvn -f Calculadora_calidad/pom.xml clean test
