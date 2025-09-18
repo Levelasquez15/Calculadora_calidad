@@ -18,7 +18,7 @@ e integración continua (CI) configurada con **GitHub Actions** y ejecutada loca
 
 ---
 
-## 📂 Estructura del proyecto
+
 
 Calculadora_Calidad/
 ├── Calculadora_calidad/
